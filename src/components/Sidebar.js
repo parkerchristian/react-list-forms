@@ -1,13 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function Sidebar() {
+export default function Sidebar({ children }) {
   
   return (
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Foods</a>
-      <a href="#">Contact</a>
+      {children}
     </nav>
   );
 }
+
+Sidebar.propTypes = {
+  children: PropTypes.node
+};
