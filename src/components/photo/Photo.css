@@ -1,5 +1,7 @@
 .Photo {
   border: solid;
   width: 250px;
+  max-height: 140px;
+  min-height: 110px;
   margin: 10px;
 }

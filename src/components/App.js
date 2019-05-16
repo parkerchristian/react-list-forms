@@ -13,14 +13,14 @@ export default class App extends PureComponent {
     const allPhotos = [
       carsales,
       logo,
-      nikelogo3
+      nikelogo3,
+      carsales,
+      logo
     ];
     return (
       <section>
         <Header />
-        <div>
-          <PhotoAlbum photos={allPhotos}/>
-        </div>
+        <PhotoAlbum photos={allPhotos}/>
         <Footer />
       </section>
     );

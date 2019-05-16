@@ -3,18 +3,18 @@
 exports[`App Test renders App 1`] = `
 <section>
   <Header />
-  <div>
-    <PhotoAlbum
-      photos={
-        Array [
-          "/path/image",
-          "/path/image",
-          "/path/image",
-        ]
-      }
-      title="My Album"
-    />
-  </div>
+  <PhotoAlbum
+    photos={
+      Array [
+        "/path/image",
+        "/path/image",
+        "/path/image",
+        "/path/image",
+        "/path/image",
+      ]
+    }
+    title="My Album"
+  />
   <Footer />
 </section>
 `;
