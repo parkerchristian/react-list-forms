@@ -5,7 +5,13 @@ export default class App extends PureComponent {
   render() {
     return (
       <>
-      <Sidebar />
+      <Sidebar>
+        <a href="#">HOME</a>
+        <a href="#">FOOD</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+      </Sidebar>
+      <p>Sup</p>
       </>
     );
   }
