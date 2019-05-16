@@ -8,3 +8,7 @@ div {
 
   border: solid;
 }
+
+ul {
+  list-style: none;
+}

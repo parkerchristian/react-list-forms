@@ -4,17 +4,15 @@ exports[`App Test renders App 1`] = `
 <section>
   <Header />
   <div>
-    <Photo
-      photo="/path/image"
-    />
-    <Photo
-      photo="/path/image"
-    />
-    <Photo
-      photo="/path/image"
-    />
-    <Photo
-      photo="/path/image"
+    <PhotoAlbum
+      photos={
+        Array [
+          "/path/image",
+          "/path/image",
+          "/path/image",
+        ]
+      }
+      title="My Album"
     />
   </div>
   <Footer />
