@@ -1,0 +1,11 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 5em;
+  background: radial-gradient(white, black);
+  h1 {
+    font: 100;
+  }
+}

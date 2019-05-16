@@ -1,3 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App Test renders App 1`] = `<Fragment />`;
+exports[`App Test renders App 1`] = `
+<section>
+  <Header />
+  <PhotoAlbum
+    photos={
+      Array [
+        "/path/image",
+        "/path/image",
+        "/path/image",
+        "/path/image",
+        "/path/image",
+      ]
+    }
+    title="My Album"
+  />
+  <Footer />
+</section>
+`;
