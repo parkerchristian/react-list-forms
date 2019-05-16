@@ -1,0 +1,18 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 12vw;
+  height: 100vh;
+  background: rgb(104, 0, 0);
+  
+  a {
+    color: rgb(0, 255, 238);
+    font-size: 1.3em;
+    text-decoration: none;
+    letter-spacing: .5em;
+    margin: 1em;
+  }
+}

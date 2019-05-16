@@ -1,3 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App Test renders App 1`] = `<Fragment />`;
+exports[`App Test renders App 1`] = `
+<section
+  className="App"
+>
+  <Sidebar>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      HOME
+    </a>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      FOOD
+    </a>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      ABOUT
+    </a>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      CONTACT
+    </a>
+  </Sidebar>
+  <p>
+    YOURE HOME
+  </p>
+</section>
+`;
