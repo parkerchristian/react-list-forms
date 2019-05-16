@@ -5,27 +5,31 @@ exports[`App Test renders App 1`] = `
   <Sidebar>
     <a
       href="#"
+      onClick={[Function]}
     >
       HOME
     </a>
     <a
       href="#"
+      onClick={[Function]}
     >
       FOOD
     </a>
     <a
       href="#"
+      onClick={[Function]}
     >
       ABOUT
     </a>
     <a
       href="#"
+      onClick={[Function]}
     >
       CONTACT
     </a>
   </Sidebar>
   <p>
-    Sup
+    YOURE HOME
   </p>
 </Fragment>
 `;
