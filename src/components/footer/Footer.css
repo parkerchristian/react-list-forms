@@ -1,3 +1,15 @@
 .Footer {
-  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  margin-top: calc(100vh - 8em);
+  height: 3em;
+  position: relative;
+  background: radial-gradient(black, white);
+  
+  h1 {
+    color: white;
+  }
 }
