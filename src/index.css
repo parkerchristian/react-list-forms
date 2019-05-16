@@ -6,8 +6,8 @@ body {
   background: linear-gradient(white,black);
   background-repeat: no-repeat;
   background-size: cover;
+  
   min-height: calc(100vh - 3em);
-
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  padding-bottom: 3.5em;
 }
