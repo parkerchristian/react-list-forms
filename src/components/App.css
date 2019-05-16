@@ -1,0 +1,9 @@
+.App {
+  background: rgb(87, 24, 131);
+  display: flex;
+  
+  p {
+    margin: 10px;
+    color: white;
+  }
+}

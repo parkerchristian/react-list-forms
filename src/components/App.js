@@ -1,14 +1,15 @@
 import React, { PureComponent } from 'react';
 import Sidebar from './Sidebar';
+import style from './App.css';
 
 export default class App extends PureComponent {
   state = {
     page: 'home'
   }
 
-  handler = (event, page) => {
-    console.log('***', page);
+  handler = (page) => {
     this.setState({ page: page });
+    console.log('***', page);
   }
 
   render() {
@@ -20,15 +21,15 @@ export default class App extends PureComponent {
       contact: 'never call',
     };
     return (
-      <>
-      <Sidebar>
-        <a onClick={() => this.handler(null, 'home')} href="#">HOME</a>
-        <a onClick={() => this.handler(null, 'food')} href="#">FOOD</a>
-        <a onClick={() => this.handler(null, 'about')} href="#">ABOUT</a>
-        <a onClick={() => this.handler(null, 'contact')} href="#">CONTACT</a>
-      </Sidebar>
-      <p>{content[this.state.page]}</p>
-      </>
+      <section className={style.App}>
+        <Sidebar>
+          <a onClick={() => this.handler('home')} href="#">HOME</a>
+          <a onClick={() => this.handler('food')} href="#">FOOD</a>
+          <a onClick={() => this.handler('about')} href="#">ABOUT</a>
+          <a onClick={() => this.handler('contact')} href="#">CONTACT</a>
+        </Sidebar>
+        <p>{content[this.state.page]}</p>
+      </section>
     );
   }
 }
