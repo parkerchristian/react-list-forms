@@ -1,8 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App Test renders App 1`] = `
-<Fragment>
+<section>
   <Header />
+  <div>
+    <Photo
+      photo="/path/image"
+    />
+    <Photo
+      photo="/path/image"
+    />
+    <Photo
+      photo="/path/image"
+    />
+    <Photo
+      photo="/path/image"
+    />
+  </div>
   <Footer />
-</Fragment>
+</section>
 `;
