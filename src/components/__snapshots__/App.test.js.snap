@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App Test renders App 1`] = `
-<Fragment>
+<section
+  className="App"
+>
   <Sidebar>
     <a
       href="#"
@@ -31,5 +33,5 @@ exports[`App Test renders App 1`] = `
   <p>
     YOURE HOME
   </p>
-</Fragment>
+</section>
 `;

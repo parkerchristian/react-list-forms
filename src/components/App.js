@@ -20,6 +20,7 @@ export default class App extends PureComponent {
       about: 'at about page',
       contact: 'never call',
     };
+    
     return (
       <section className={style.App}>
         <Sidebar>
